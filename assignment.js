@@ -48,7 +48,7 @@ const server = http.createServer((req, res) => {
     res.write('<head><title>Assignment</title></head>');
     res.write('<body><h1>Welcome to the Assignment Server!</h1></body>');
     res.write('</html>');
-    res.end
+    res.end();
 });
 
 server.listen(3000);
